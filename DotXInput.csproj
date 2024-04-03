@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
+    <Version>1.0.0</Version>    
+    <Authors>Calle Lindquist</Authors>
+    <Description>A C# wrapper around XInput, a Windows API for communication with game controllers.</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <EditorConfigFiles Remove="D:\programming\vs\DotXInput\.editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="D:\programming\vs\DotXInput\.editorconfig" />
+  </ItemGroup>
+
+</Project>
